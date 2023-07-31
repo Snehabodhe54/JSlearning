@@ -1,6 +1,6 @@
 var leapYear = function(year){
   var TypeOf = typeof year;
-  console.log(TypeOf);
+ 
     if(TypeOf=="number"){
     if (year%4==0) {
         console.log(`year ${year}, is leap year`);
