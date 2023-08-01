@@ -1,3 +1,4 @@
+console.log(`------------------------------------------------`);
 var index = 5;
  while(index <=15) {
     console.log( index);
