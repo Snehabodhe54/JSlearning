@@ -24,7 +24,7 @@ function totalNumVowels(str) {
     index++;
   }
   console.log(
-    `given string " ${str}" has total number of vowels are ${totalVowels}`
+    `given string "${str}" has total number of vowels are ${totalVowels}`
   );
 }
 totalNumVowels("I am very good IT Developer");
@@ -41,7 +41,7 @@ function sumOfCube() {
 
     index++;
   }
-  console.log(`sum of cube of numbers from 1to 5 is :${sumOfCube}`);
+  console.log(`sum of cube of numbers from 1 to 5 is :${sumOfCube}`);
 }
 sumOfCube();
 

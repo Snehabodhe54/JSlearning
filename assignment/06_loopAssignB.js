@@ -1,8 +1,8 @@
 function reverseString(str) {
   let  concatResult="";
-    for (let index =str.length; index >=0 ; index--) {
+    for (let index =str.length-1; index >=0 ; index--) {
          let char = str.charAt(index);
-         if( char!=""){
+         if( char!=" "){
             concatResult = concatResult + char +"";
          }
     }
