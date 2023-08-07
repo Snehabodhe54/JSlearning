@@ -8,6 +8,7 @@ let personGK = {
         console.log(`Inside show function`);
     }
 }
+personGK.show();
 console.log(personGK);
 
 console.log(typeof personGK);
@@ -26,7 +27,7 @@ console.log(personGK);
 
 personGK.adharNumber = 123456781234;
 
-personGK.show();
+
 
 let array = [];
 
