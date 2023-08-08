@@ -61,6 +61,7 @@ function traverseObject(object) {
   }
 }
 
+
 traverseObject(jenny);
 traverseObject(stew);
 traverseObject(harry);
