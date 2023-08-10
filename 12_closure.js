@@ -7,8 +7,9 @@ function outer(){
         console.log(outerFunVariable);
         console.log(globalVariable);
     }
-    return innerFunction;
+    return innerFunction; //If we take 'return innerFunction();' then we hv to call fun like 'outer();'
 }
 outer()();
-// let innerFun = outer();
-// innerFun();
+ //let innerFun = outer();
+//innerFun();
+//outer();

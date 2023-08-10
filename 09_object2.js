@@ -28,9 +28,6 @@ console.log(personGK);
 personGK.adharNumber = 123456781234;
 
 
-
-let array = [];
-
 let bank = {
     bankName: "SBI Bank",
     accountNumber: 12345673,
@@ -77,7 +74,7 @@ console.log(`----------Traversing an object ------------ `);
 for (const key in student) {
     if (Object.hasOwnProperty.call(student, key)) {
         const element = student[key];
-        console.log(`Key: ${key}, value : ${element}`); 
+        console.log(`Key: ${key} , value : ${element}`); 
     }
 }
 

@@ -20,8 +20,9 @@ console.log(`----------------------------------Merge using Spread operator------
 
 const arrayEven=[2, 30, 14, 8];
 const mergeArray=[...arrayNums, ...arrayEven];
-//const mergeArray2= arrayNums+ arrayEven;
-//const mergeArray3= arrayNums.concat(arrayEven);
+
+//const mergeArray2= arrayNums+ arrayEven;  //"concat using + operator"
+//const mergeArray3= arrayNums.concat(arrayEven); // using concat(string template)
 
 console.log(`merge array: ${mergeArray}`);
 //console.log(`merge array: ${mergeArray2}`);

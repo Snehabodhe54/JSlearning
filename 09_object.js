@@ -1,22 +1,3 @@
-let personGK = {
-  empId: 2233,
-  state: "MH",
-  designation: "Tech Lead",
-  city: "Pune",
-  isMarried: true,
-  empId: 2233,
-};
-console.table(personGK);
-
-console.log(typeof personGK);
-
-console.log(`Emp Id: ${personGK.empId}`); // Dot Notation
-console.log(`Emp city: ${personGK["city"]}`);
-
-personGK.city = "Mumbai";
-console.log(personGK);
-
-
  personGK = {
   empId: 2233,
   state: "MH",
@@ -27,7 +8,7 @@ console.log(personGK);
       console.log(`Inside show function`);
   }
 }
-console.log(personGK);
+console.table(personGK);
 
 console.log(typeof personGK);
 
@@ -46,8 +27,6 @@ console.log(personGK);
 personGK.adharNumber = 123456781234;
 
 personGK.show();
-
-let array = [];
 
 let bank = {
   bankName: "SBI Bank",

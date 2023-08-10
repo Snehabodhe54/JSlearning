@@ -11,4 +11,4 @@ marks = {
 }
 
 let mergedObject = Object.assign({} , jenny, marks);
-console.table(mergedObject);
+console.log(mergedObject);
