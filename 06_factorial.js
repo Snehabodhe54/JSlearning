@@ -13,16 +13,28 @@ function factorial(num) {
 var fact = factorial(5);
 console.log(`Factorial using recursion is: ${fact}`);
 
+/*console.log(`OR we can do like down also`);
+function factorial0(num) {
+  // 5 * 4 * 3 * 2 * 1
+  if (num == 1) {
+    return 1;
+  } else {
+    fact = num * factorial(num - 1); //5 * 4 * 3 * 2 * 1
+    return fact;
+  }
+}
+console.log(`Factorial using recursion is: ${factorial0(5)}`); */
+
 console.log(
   `--------------------------------factorial using loop------------------------------`
 );
 
 function factorialLoop(num) {
-let factorial = 1;
-for (let index = num; index >= 1; index--) {
-  factorial= factorial * index;
-}
-return factorial;
+  let factorial = 1;
+  for (let index = num; index >= 1; index--) {
+    factorial = factorial * index;
+  }
+  return factorial;
 }
 console.log(`factorial of 5 :${factorialLoop(5)}`);
 console.log(`factorial of 9 :${factorialLoop(9)}`);
