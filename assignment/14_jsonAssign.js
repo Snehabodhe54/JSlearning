@@ -30,10 +30,11 @@ let indexOfMelon = lastName.indexOf("Melon");
 console.log(`${lastName.slice(6)}`);
 
 let DateOfJoin = jsonToObject.doj;
+let split = DateOfJoin.split("-");
+console.log(`${split[2]}`);
 //console.log(DateOfJoin);
-let IndexOfDoj = DateOfJoin.indexOf("2019");
+//let IndexOfDoj = DateOfJoin.indexOf("2019");
 //console.log(IndexOfDoj);
-console.log(DateOfJoin.slice(6));
-//console.log(`${DateOfJoin.slice(6)}`);
+//console.log(DateOfJoin.slice(6));
 
 

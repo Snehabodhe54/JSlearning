@@ -15,3 +15,21 @@ function if_prime(num) {
   }
 }
 if_prime(10);
+
+console.log(
+  `----------------------To check single number if it is prime or not--------------------`
+);
+
+function is_prime(num) {
+  let prime = 1;
+  for (let i = 2; i < num; i++) {
+    if (num % i == 0) {
+      console.log(`not`);
+      return 0;
+    }
+  }
+  if (prime) {
+    console.log(`it is`);
+  }
+}
+is_prime(11);

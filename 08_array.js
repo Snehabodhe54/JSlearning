@@ -50,7 +50,7 @@ array.unshift(60);
 array.unshift(21, 41, 69);
 console.log(array);
 
-console.log(`Remove element in the oth index and last index`);
+console.log(`Remove element in the 0 index and last index`);
 var array = [10, 20, 30, 50, 10, 80, 20];
 array.pop();
 array.shift();

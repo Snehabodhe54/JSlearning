@@ -1,15 +1,6 @@
-let personalDetails = {
-    Name: "Sneha",
-    address: "Yavatmal",
-    age: 23,
-    degree:' B.E'
-}
-let collegeDetails = {
-    collegeName:'SCET',
-branch : "computer Engineering",
-location: "Nagpur",
-university: "rtmnu"
-}
 
-let personalCollegeDetails = Object.assign({} , personalDetails,collegeDetails);
-console.table(personalCollegeDetails);
+let userName = "Sneha bodhe";
+let split = userName.split(" ");  // Splitting by space instead of hyphen
+console.log(split);
+console.log(split[0]);
+console.log(split[1]);
