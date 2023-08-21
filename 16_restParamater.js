@@ -6,7 +6,7 @@ function add(num1, num2, ...num ){
     addition= addition+value;
    
    }
-   console.log(`Addition of ${num1}, ${num2 } and rest of numbers (i.e ${num}) is : ${addition}`);
+   console.log(`Addition of ${num1}, ${num2 } and rest of numbers (${num}) is : ${addition}`);
 }
 add(5, 6);
 add(9, 5, 6);
