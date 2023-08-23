@@ -1,6 +1,6 @@
 function add(num1, num2, ...num ){
     // console.log(`num1 ${num1},  num2 ${num2}`);
-    // console.log(num);
+     console.log(num);
     let addition = num1+ num2;
    for (const value of num) {
     addition= addition+value;

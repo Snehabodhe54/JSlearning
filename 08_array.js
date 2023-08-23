@@ -77,6 +77,25 @@ var array = [10, 20, 30, 50, 10, 80, 20];
 array.splice(3, 0, 100, 200, 300, 600)
 console.log(array);
 
-var array = [10, 20, 30, 50, 10, 80, 20];
+var array = [10, 20, 30, 50, 10, 80, 20];//replaced
 array.splice(4, 2, 33, 55, 66, 77 );
 console.log(array);
+
+//how to traverse array of objects
+const arrayObjects = [];
+const object1 = {
+    name: "sneha",
+    city: "pune",
+    age:23
+}
+const object2 = {
+    name: "jenny",
+    city: "Nagpur",
+    age:25
+}
+
+arrayObjects.push(object1,object2);
+
+for (const value of arrayObjects) {
+    console.log(value);   
+}

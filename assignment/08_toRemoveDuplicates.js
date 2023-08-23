@@ -29,9 +29,9 @@ for (let index = 0; index < array.length; index++) {
 }
 console.log(uniqueArray1);
 
-console.log(`----------------------(using set and ... spread operator)--------------------------`);
+console.log(
+  `----------------------(using set and ... spread operator)--------------------------`
+);
 
-let uniqueArray2= [...new Set(array)]
+let uniqueArray2 = [...new Set(array)];
 console.log(uniqueArray2);
-
-
