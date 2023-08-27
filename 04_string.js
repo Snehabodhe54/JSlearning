@@ -50,4 +50,4 @@ console.log(`Result string is : ${result}`);
 
 console.log(`------------------------------------`);
 var result = greet.slice(5, 12);
-console.log(`Slice from index 5 till 12 is : ${result}`);
+console.log(`Slice from index 5 till 12 is : ${result}`);56

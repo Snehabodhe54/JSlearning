@@ -1,14 +1,14 @@
 let palindromicNumber = function (num) {
-  let numberToString = num.toString();
-  //console.log(numberToString);
-  let reveredNumber = " ";
-  for (let index = numberToString.length - 1; index >= 0; index--) {
-    const element = numberToString[index];
-    reveredNumber = reveredNumber + element;
+  let string = num.toString();
+  //console.log(string);
+  let size = string.length;
+  //console.log(size);
+  let reversed = "";
+  for (let index = size - 1; index >= 0; index--) {
+    const element = string[index];
+    reversed = reversed + element;
   }
-  // console.log(reveredNumber);
-  let number = +reveredNumber;
-  if (number == num) {
+  if (reversed == num) {
     console.log(`palindrome Number:${num}`);
   } else {
     console.log(`Not palindrome:${num}`);

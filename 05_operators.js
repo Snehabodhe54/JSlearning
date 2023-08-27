@@ -14,7 +14,7 @@ console.log(`Result is : ${result}`);
 console.log(`-------- Modulus ------------`);
 var result = num1 % num2;
 console.log(`Result is : ${result}`);
-console.log(` ${15%3}`);
+console.log(` ${17%3}`);
 console.log(`${12%2}`);
 
 console.log(`--------- Assignment Operators -------------`);
