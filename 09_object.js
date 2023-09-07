@@ -49,3 +49,12 @@ bank.address.country = "Maharashtra";
 
  bank.empNames.pop();
  bank.empNames.unshift("");
+
+ console.log(bank.address);
+ console.log(`----------------Traversing object--------------`);
+ for (const key in bank) {
+  if (Object.hasOwnProperty.call(bank, key)) {
+    const element = bank[key];
+    console.log(element);
+  }
+ }

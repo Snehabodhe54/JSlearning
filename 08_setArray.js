@@ -29,6 +29,8 @@ let setOfNumbers = new Set();
 for (const value of array1) {
     setOfNumbers.add(value);
 }
+//setOfNumbers = new Set(array1);
+
 console.log(array1);
 console.log(setOfNumbers);
 

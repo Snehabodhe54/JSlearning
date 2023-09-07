@@ -1,13 +1,13 @@
 let personGK = {
-    empId: 2233,
-    state: "MH",
-    designation: "Tech Lead",
-    city: "Pune",
-    isMarried: true,
-    show: function(){
-        console.log(`Inside show function`);
-    }
-}
+  empId: 2233,
+  state: "MH",
+  designation: "Tech Lead",
+  city: "Pune",
+  isMarried: true,
+  show: function () {
+    console.log(`Inside show function`);
+  },
+};
 personGK.show();
 console.log(personGK);
 
@@ -27,43 +27,41 @@ console.log(personGK);
 
 personGK.adharNumber = 123456781234;
 
-
 let bank = {
-    bankName: "SBI Bank",
-    accountNumber: 12345673,
-    ifsc: "SBIN000567",
-    address: {
-        street: "Wakad Main Road",
-        pin: 411057,
-        landmark: "Near Petrol Pump",
-        telPhone: "020-446789",
-        city: "Pune",
-        state: "MH",
-        country : "India",
-        getAddress: function(){
-           console.log(`Bank Address: ${this.street}, ${this.landmark}, ${this.pin}, ${this.telPhone}, ${city}, ${this.state}, ${this.country}`);
-        }
+  bankName: "SBI Bank",
+  accountNumber: 12345673,
+  ifsc: "SBIN000567",
+  address: {
+    street: "Wakad Main Road",
+    pin: 411057,
+    landmark: "Near Petrol Pump",
+    telPhone: "020-446789",
+    city: "Pune",
+    state: "MH",
+    country: "India",
+    getAddress: function () {
+      console.log(
+        `Bank Address: ${this.street}, ${this.landmark}, ${this.pin}, ${this.telPhone}, ${city}, ${this.state}, ${this.country}`
+      );
     },
-    empNames : ["Jenny", "Elon", "Warrren", "Stew"]
-}
+  },
+  empNames: ["Jenny", "Elon", "Warrren", "Stew"],
+};
 
 let city = bank.address.city;
-bank.address.country = "Maharashtra";
 bank.empNames.pop();
 bank.empNames.unshift("Mark");
 
-bank.address.getAddress();
+console.log(`${bank.address.getAddress()}`);
 
 bank.empNames.push("Anil");
 
-
-
 let student = {
-    rollNumber: 2233,
-    state: "MH",
-    city: "Pune",
-    college: "COEP Pune"
-}
+  rollNumber: 2233,
+  state: "MH",
+  city: "Pune",
+  college: "COEP Pune",
+};
 
 let keysStudent = Object.keys(student);
 console.log(keysStudent);
@@ -72,11 +70,10 @@ console.log(valuesStudent);
 
 console.log(`----------Traversing an object ------------ `);
 for (const key in student) {
-    if (Object.hasOwnProperty.call(student, key)) {
-        const element = student[key];
-        console.log(`Key: ${key} , value : ${element}`); 
-    }
+  if (Object.hasOwnProperty.call(student, key)) {
+    const element = student[key];
+    console.log(`Key: ${key} , value : ${element}`);
+  }
 }
 
-
-let isAvailable= "college" in student;
+let isAvailable = "college" in student;

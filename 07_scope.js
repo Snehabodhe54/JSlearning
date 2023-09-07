@@ -32,7 +32,7 @@ function display(){
     if (isMarried) {
         let greet =  "Good Morning";
         const PI = 3.1412;
-        console.log(); 
+        console.log(greet, PI); 
     }
     // console.log(PI);
     // console.log(greet);

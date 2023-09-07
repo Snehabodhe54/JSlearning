@@ -1,0 +1,7 @@
+const arrayNum = [31, 54, 34, 11, 31, 34];
+let set = new Set()
+for (const value of arrayNum) {
+   set.add(value)
+}
+let array2 = [...set]
+console.log(array2);

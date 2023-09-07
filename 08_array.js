@@ -7,7 +7,7 @@ let element2 = array[2];
 console.log(`Element stored at index 2 is: ${element2}`);
 
 let element1 = array[0];
-console.log(`Element stored at index 1 is: ${element1}`);
+console.log(`Element stored at index 0 is: ${element1}`);
 let arrayLength = array.length;
 let elementLast = array[arrayLength-1];
 console.log(`Last element is : ${elementLast}`);
@@ -25,6 +25,10 @@ console.log(`Index of 50 is : ${indexOfElement}`);
 console.log(`----------- Array traversing -----------`);
 for (let index = 0; index < array.length; index++) {
     const element = array[index];
+    console.log(element);
+}
+console.log(`traverse using forOf`);
+for (const element of array) {
     console.log(element);
 }
 console.log(`----------- Array traversing in reverse order -----------`);

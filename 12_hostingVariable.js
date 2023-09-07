@@ -12,7 +12,7 @@ function display(){
 }
 
 
-// show(); Not allowed
+show(); //Not allowed
 var show = function(){
     console.log(`inside show function`);
 }

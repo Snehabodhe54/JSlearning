@@ -55,18 +55,6 @@ for (let index = 0; index <30 ; index=index+2) {
     console.log(index); 
 }
 
-console.log(`First 5 odd numbers`);
-// First 5 odd numbers
-for (let index = 1; index <10 ; index=index+2) {
-    console.log(index); 
-}
-
-console.log(`First 15 even numbers`);
-// First 15 even number
-for (let index = 0; index <30 ; index=index+2) {
-    console.log(index); 
-}
-
 for (let index = 0; index < 10; index++) {
     console.log(`Iteration Start`);
     if (index==5) {
@@ -78,7 +66,7 @@ for (let index = 0; index < 10; index++) {
 }
 
 console.log(`-------- continue -----------`);
-for (let index = 0; index < 5; index++) {
+for (let index = 0; index <= 5; index++) {
     console.log(`Iteration Start`);
     if (index==3) {
         continue;

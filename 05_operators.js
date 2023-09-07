@@ -61,7 +61,6 @@ console.log(`Using < operator Result is : ${result}`);
 var result = num3 <= num5;
 console.log(`Using <= operator Result is : ${result}`);
 
-
 var result = num3 > num5;
 console.log(`Using > operator Result is : ${result}`);
 

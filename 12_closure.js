@@ -12,4 +12,3 @@ function outer(){
 outer()();
  //let innerFun = outer();
 //innerFun();
-//outer();

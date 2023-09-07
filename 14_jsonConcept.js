@@ -47,3 +47,4 @@ const student = {
 let studentStr = JSON.stringify(student); // convert object to json
 
 console.log(studentStr);
+console.log(typeof studentStr);
